@@ -5,6 +5,7 @@
 
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .btn-primary{
@@ -99,9 +100,22 @@ body{
 .d-grid{
     position: relative;
     left: 72vw;
-    bottom: 10vw;
+    bottom: 6.1vw;
 }
 
+.btn-primary{
+    border-radius: 20em;
+}
+
+.container{
+    position: relative;
+    bottom: 6em;
+    height: 79vh;
+    width: 88vw;
+    background-color: #828282;
+    opacity: 0.26;
+    border-radius: 20px;
+}
 
 
 

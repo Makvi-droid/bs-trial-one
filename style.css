@@ -1,0 +1,12 @@
+:root{
+    --normal-font: 'Roboto','Work Sans', 'Titillium Web', 'Roboto Mono', 'Reddit Sans Condensed',
+    'Poppins';
+}
+
+.btn-primary{
+    margin: 1.2em;
+}
+
+.offcanvas-title{
+    font-family: 'Kanit', var(--normal-font);
+}

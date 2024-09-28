@@ -20,23 +20,29 @@
 
     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
         aria-controls="staticBackdrop">
-        DashBoard
+        <i class="fa-solid fa-table-columns"></i>
     </button>
 
     <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
-        aria-labelledby="staticBackdropLabel">
+        aria-labelledby="staticBackdropLabel" style="background-color: #0084ff;">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="staticBackdropLabel">Dashboard</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <ul>
-                <li><i class="fa-solid fa-house"></i>HOME</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="offcanvas-list">
+                <li><i class="fa-solid fa-house" style="color: whitesmoke;"></i><span class="underline">HOME</span></li>
+                <li><i class="fa-regular fa-address-card" style="color: whitesmoke;"></i><span class="underline">PROFILE</span></li>
+                <li><i class="fa-regular fa-message" style="color: whitesmoke;"></i><span class="underline">MESSAGES</span></li>
+                <li><i class="fa-regular fa-clock " style="color: whitesmoke;"></i><span class="underline">HISTORY</span></li>
+                <li><i class="fa-regular fa-newspaper" style="color: whitesmoke;"></i><span class="underline">TASKS</span></li>
+                <li><i class="fa-solid fa-people-group" style="color: whitesmoke;"></i><span class="underline">COMMUNITIES</span></li>
+            </ul>
+
+            <ul class="offcanvas-list-two">
+                <li><i class="fa-solid fa-gear" style="color: whitesmoke;"></i><span class="underline">SETTINGS</span></li>
+                <li><i class="fa-regular fa-circle-question" style="color: whitesmoke;"></i><span class="underline">SUPPORT</span></li>
+                <li><i class="fa-regular fa-user-shield" style="color: whitesmoke;"></i><span class="underline">PRIVACY</span></li>
             </ul>
         </div>
     </div>

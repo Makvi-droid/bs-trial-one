@@ -3,6 +3,10 @@
     'Poppins';
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .btn-primary{
     margin: 1.2em;
 }
@@ -81,5 +85,23 @@
 .offcanvas-list-two li:hover .underline::after {
     transform: scaleX(1); 
 }
+
+.profile-pic{
+    width: 60px;          /* Set width */
+    height: 60px;         /* Set height */
+    background-color: whitesmoke;  /* Background color */
+    border-radius: 50%;  
+    border: 3px #0084ff solid;  /* This makes it a circle */
+    position: relative;
+    left: 2.6em;
+}
+
+.d-grid{
+    position: relative;
+    left: 72vw;
+    bottom: 10vw;
+}
+
+
 
 

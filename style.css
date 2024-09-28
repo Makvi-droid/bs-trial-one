@@ -25,6 +25,10 @@
     padding: 10px;
 }
 
+.btn-outline-success{
+    font-family: 'Montserrat', var(--normal-font);
+}
+
 .search{
     margin: 2em;
     height: 5vh;

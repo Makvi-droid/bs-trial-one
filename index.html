@@ -18,16 +18,26 @@
 
 <body>
 
+    
+    
+<div class="d-flex align-items-center p-3">
     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
         aria-controls="staticBackdrop">
         <i class="fa-solid fa-table-columns"></i>
     </button>
 
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+</div>
+    
+
     <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
         aria-labelledby="staticBackdropLabel" style="background-color: #0084ff;">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="staticBackdropLabel">Dashboard</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: aliceblue;"></button>
         </div>
         <div class="offcanvas-body">
             <ul class="offcanvas-list">
